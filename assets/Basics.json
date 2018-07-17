@@ -1,0 +1,14 @@
+{
+  "basics":[
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"Container",
+      "description":"A convenience widget that combines common painting, positioning, and sizing widgets."
+    },
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"Container",
+      "description":"A convenience widget that combines common painting, positioning, and sizing widgets."
+    }
+  ]
+}
