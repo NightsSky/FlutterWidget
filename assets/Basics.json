@@ -3,12 +3,22 @@
     {
       "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
       "name":"Container",
-      "description":"A convenience widget that combines common painting, positioning, and sizing widgets."
+      "description":"方便设置大小、定位、绘制的控件"
     },
     {
       "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
-      "name":"Container",
-      "description":"A convenience widget that combines common painting, positioning, and sizing widgets."
+      "name":"Row",
+      "description":"水平方向布局."
+    },
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"Column",
+      "description":"竖直方向布局."
+    },
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"Image",
+      "description":"图像显示."
     }
   ]
 }

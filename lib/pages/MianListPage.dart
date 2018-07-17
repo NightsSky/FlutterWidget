@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget/pages/BasicsPage.dart';
+import 'package:flutter_widget/ui/ContainerPage.dart';
 
 //加载首页
 class MainListPage extends StatefulWidget{
@@ -17,6 +18,7 @@ class MainListPageState extends State<MainListPage>{
       navigatorKey: navigatorKey,
       routes: <String,WidgetBuilder>{
         'Basics': (BuildContext context) => new BasicsPage(),
+        'Container': (BuildContext context) => new ContainerPage(),
       },
       home: Scaffold(
         appBar: AppBar(
