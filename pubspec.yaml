@@ -29,6 +29,7 @@ flutter:
 
   assets:
     - assets/Basics.json
+    - images/image1.jpg
 
 
 
