@@ -15,7 +15,10 @@ class CommonItem extends StatelessWidget{
             mainAxisSize: MainAxisSize.max,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Image.network(item.img),
+              Image.network(
+                  item.img,
+              width: 400.0,
+              height: 112.0,),
               Padding(padding: EdgeInsets.all(3.0),
                 child: Text(
                     item.name,

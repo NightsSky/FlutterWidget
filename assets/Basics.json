@@ -1,17 +1,17 @@
 {
   "basics":[
     {
-      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "img":"http://pc1j2udq7.bkt.clouddn.com/container.jpg",
       "name":"Container",
       "description":"方便设置大小、定位、绘制的控件"
     },
     {
-      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "img":"http://pc1j2udq7.bkt.clouddn.com/row.jpg",
       "name":"Row",
       "description":"水平方向布局."
     },
     {
-      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "img":"http://pc1j2udq7.bkt.clouddn.com/column.jpg",
       "name":"Column",
       "description":"竖直方向布局."
     },
