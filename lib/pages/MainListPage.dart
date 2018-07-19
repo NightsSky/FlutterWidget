@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget/pages/BasicsPage.dart';
-import 'package:flutter_widget/ui/ContainerPage.dart';
-import 'package:flutter_widget/ui/ImagePage.dart';
-import 'package:flutter_widget/ui/RowAndColumnPage.dart';
+import 'package:flutter_widget/pages/Routes.dart';
 
 //加载首页
 class MainListPage extends StatefulWidget {
@@ -19,13 +16,7 @@ class MainListPageState extends State<MainListPage> {
     return MaterialApp(
       navigatorKey: navigatorKey,
       //初始化页面路由
-      routes: <String, WidgetBuilder>{
-        'Basics': (BuildContext context) => new BasicsPage(),
-        'Container': (BuildContext context) => new ContainerPage(),
-        'Row': (BuildContext context) => new RowAndColumnPage(),
-        'Column': (BuildContext context) => new RowAndColumnPage(),
-        'Image': (BuildContext context) => new ImagePage(),
-      },
+      routes: Routes().initRoutes(),
       home: Scaffold(
           appBar: AppBar(
             title: Text("Flutter Widget"),
