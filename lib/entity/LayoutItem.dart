@@ -1,18 +1,16 @@
 import 'package:flutter_widget/entity/BasicItem.dart';
 import 'package:json_annotation/json_annotation.dart';
-part 'MaterialItem.g.dart';
-
+part 'LayoutItem.g.dart';
+//json   见 http://doc.flutter-dev.cn/json/
 @JsonSerializable()
-class MaterialItemList extends Object with _$MaterialItemListSerializerMixin{
-   List<BasicItem> navigation;
-   List<BasicItem> buttons;
-   List<BasicItem> input;
-   List<BasicItem> dialogs;
-   List<BasicItem> displays;
-   List<BasicItem> layout;
-   MaterialItemList({this.navigation,this.buttons,this.input,this.dialogs,this.layout});
+class LayoutItemList extends Object with _$LayoutItemListSerializerMixin{
+   List<BasicItem> single_child;
+   List<BasicItem> multi_child;
+   List<BasicItem> layout_helpers;
 
-   factory MaterialItemList.fromJson(Map<String, dynamic> json) => _$MaterialItemListFromJson(json);
+   LayoutItemList({this.single_child, this.multi_child, this.layout_helpers});
+
+   factory LayoutItemList.fromJson(Map<String, dynamic> json) => _$LayoutItemListFromJson(json);
 }
 
 

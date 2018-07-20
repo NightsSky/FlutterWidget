@@ -3,17 +3,21 @@
     {
       "img":"https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bx4BSt6jniD7T0hfM01sSmRyTG8/layout_structure_regions_mobile.png",
       "name":"Scaffold",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     },
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VclpfSFpuelBGR1k/components_toolbars.png",
       "name":"Appbar",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
+
     },
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VWG5nei0wWXpoczA/components_bottom_navigation.png",
       "name":"BottomNavigationBar",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     }
 
   ],
@@ -21,7 +25,8 @@
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     }
 
   ],
@@ -29,7 +34,8 @@
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     }
 
   ],
@@ -37,7 +43,8 @@
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     }
 
   ],
@@ -45,7 +52,8 @@
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     }
 
   ],
@@ -53,7 +61,8 @@
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Scaffold"
     }
 
   ]

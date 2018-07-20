@@ -40,7 +40,7 @@ class CommonItem extends StatelessWidget{
             ],
           ),
           onTap: (){
-            Navigator.of(context).pushNamed(item.name);
+            Navigator.of(context).pushNamed(item.route);
           },
         )
     );

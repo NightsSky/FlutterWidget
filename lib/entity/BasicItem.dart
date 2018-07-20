@@ -19,13 +19,15 @@ class BasicItem{
   final String name;
   final String img;
   final String description;
+  final String route;
 
-  BasicItem(this.name, this.img, this.description);
+  BasicItem(this.name, this.img, this.description, this.route);
 
   BasicItem.fromJson(Map<String, dynamic> json)
       : name = json['name'],
         img = json['img'],
-        description = json['description']
+        description = json['description'],
+        route = json['route']
   ;
 
   Map<String, dynamic> toJson() =>
@@ -33,6 +35,7 @@ class BasicItem{
         'name': name,
         'img': img,
         'description': description,
+        'route': route,
       };
 }
 

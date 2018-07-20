@@ -3,22 +3,26 @@
     {
       "img":"http://pc1j2udq7.bkt.clouddn.com/container.jpg",
       "name":"Container",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Container"
     },
     {
       "img":"http://pc1j2udq7.bkt.clouddn.com/row.jpg",
       "name":"Row",
-      "description":"水平方向布局."
+      "description":"水平方向布局.",
+      "route":"RowColumn"
     },
     {
       "img":"http://pc1j2udq7.bkt.clouddn.com/column.jpg",
       "name":"Column",
-      "description":"竖直方向布局."
+      "description":"竖直方向布局.",
+      "route":"RowColumn"
     },
     {
       "img":"http://pc1j2udq7.bkt.clouddn.com/image.png",
       "name":"Image",
-      "description":"图像显示."
+      "description":"图像显示.",
+      "route":"Image"
     }
   ]
 }

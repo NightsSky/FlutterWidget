@@ -43,11 +43,29 @@ class ScaffoldPageState extends State<ScaffoldPage> {
       //导航栏
       appBar: AppBar(
         title: Text('Scaffold'),
+        elevation: 3.0,
+        centerTitle:true,
+        backgroundColor:Colors.blue,
+        automaticallyImplyLeading: true,
+        actions: <Widget>[
+          new IconButton( // action button
+            icon: new Icon(Icons.directions_bike),
+            onPressed: () { },
+          ),
+          new IconButton(
+            icon: new Icon(Icons.more_horiz),
+            onPressed: () { },
+          ),
+
+
+
+        ],
       ),
+
 
       backgroundColor: Colors.blueGrey,
       //内容
-      body: Text('Container'),
+      body: Text(''),
 
 
       //浮动按钮

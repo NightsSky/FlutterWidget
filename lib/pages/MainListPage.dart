@@ -41,8 +41,8 @@ class MainListPageState extends State<MainListPage> {
                     CardItem('Material Components', '一些比较常用的material风格的控件'),
                     CardItem(
                         'Cupertino (iOS-style widgets)', '漂亮且高保真的IOS风格小部件？.'),
-                    CardItem('Basics',
-                        'Widgets you absolutely need to know before building your first Flutter app.'),
+                    CardItem('Layout',
+                        'Arrange other widgets columns, rows, grids, and many other layouts.'),
                     CardItem('Basics',
                         'Widgets you absolutely need to know before building your first Flutter app.'),
                     CardItem('Basics',

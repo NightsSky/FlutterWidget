@@ -1,59 +1,57 @@
 {
-  "navigation":[
+  "single_child":[
     {
-      "img":"https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bx4BSt6jniD7T0hfM01sSmRyTG8/layout_structure_regions_mobile.png",
-      "name":"Scaffold",
-      "description":"方便设置大小、定位、绘制的控件"
+      "img":"http://pc1j2udq7.bkt.clouddn.com/container.jpg",
+      "name":"Container",
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Container"
     },
     {
-      "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VclpfSFpuelBGR1k/components_toolbars.png",
-      "name":"Appbar",
-      "description":"方便设置大小、定位、绘制的控件"
+      "img":"http://pc1j2udq7.bkt.clouddn.com/padding.png",
+      "name":"Padding",
+      "description":"设置 padding.",
+      "route":"single_child_layouts"
     },
     {
-      "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VWG5nei0wWXpoczA/components_bottom_navigation.png",
-      "name":"BottomNavigationBar",
-      "description":"方便设置大小、定位、绘制的控件"
+      "img":"http://pc1j2udq7.bkt.clouddn.com/center.png",
+      "name":"Center",
+      "description":"A widget that centers its child within itself",
+      "route":"single_child_layouts"
+    },
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"FittedBox",
+      "description":"能根据自身的大小，将child大小按比例调整",
+      "route":"single_child_layouts"
+    },
+    {
+      "img":"http://pc1j2udq7.bkt.clouddn.com/align.png",
+      "name":"Align",
+      "description":"能根据自身的大小，将child大小按比例调整",
+      "route":"single_child_layouts"
+    },
+    {
+      "img":"http://pc1j2udq7.bkt.clouddn.com/AspectRatio.png",
+      "name":"AspectRatio",
+      "description":"A widget that attempts to size the child to a specific aspect ratio.",
+      "route":"single_child_layouts"
     }
 
   ],
-  "buttons":[
+  "multi_child":[
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Layout"
     }
-
   ],
-  "input":[
+  "layout_helpers":[
     {
       "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
       "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
-    }
-
-  ],
-  "dialogs":[
-    {
-      "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
-      "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
-    }
-
-  ],
-  "displays":[
-    {
-      "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
-      "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
-    }
-
-  ],
-  "layout":[
-    {
-      "img":"https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
-      "name":"RaisedButton",
-      "description":"方便设置大小、定位、绘制的控件"
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"Layout"
     }
 
   ]
