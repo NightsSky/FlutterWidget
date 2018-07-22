@@ -93,16 +93,15 @@ class LayoutPage extends StatelessWidget {
               padding: const EdgeInsets.all(10.0),
               child: Text('AspectRatio'),
             ),
+            //纵横比控件
+
             Container(
-              height: 300.0,
+              height: 200.0,
               color: Colors.grey,
-              //AspectRatio
-              child:Container(
-                width: 200.0,
-                child: AspectRatio(
-                  aspectRatio: 16.0/9.0,
-                  child: Image.asset('images/image1.jpg',width: 200.0,),
-                ),
+              //FittedBox
+              child: AspectRatio(
+                aspectRatio: 16.0/9.0,//如果要一个16：9的效果
+                child: Image.asset('images/image1.jpg',),
               ),
             ),
           ],

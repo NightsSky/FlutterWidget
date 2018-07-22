@@ -5,18 +5,18 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'show rootBundle;
 import 'package:flutter_widget/entity/BasicItem.dart';
-import 'package:flutter_widget/entity/LayoutItem.dart';
+import 'package:flutter_widget/entity/TextItem.dart';
 import 'package:flutter_widget/widget/CommonItem.dart';
 
-class LayoutListPage extends StatefulWidget{
+class TextListPage extends StatefulWidget{
   @override
-  LayoutListPageState createState() {
-    return LayoutListPageState();
+  TextListPageState createState() {
+    return TextListPageState();
   }
 
 }
-class LayoutListPageState extends State<LayoutListPage>{
-  LayoutItemList list;
+class TextListPageState extends State<TextListPage>{
+  TextItem list;
   List<Widget> widgets =[];
 
   @override
@@ -30,7 +30,7 @@ class LayoutListPageState extends State<LayoutListPage>{
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("布局 Widgets")
+        title: Text("Basics")
       ),
       body:new CustomScrollView(
         primary: false,
@@ -48,11 +48,13 @@ class LayoutListPageState extends State<LayoutListPage>{
     );
   }
 
-  _getListData(LayoutItemList data) {
+
+
+  _getListData(List<BasicItem> list) {
 
       setState(() {
         widgets= [];
-        for (BasicItem item in data.single_child) {
+        for (BasicItem item in list) {
           widgets.add(CommonItem(item));
         }
       });
@@ -62,13 +64,13 @@ class LayoutListPageState extends State<LayoutListPage>{
    * 本地数据获取
    */
   Future<String> loadAsset() async {
-    return await rootBundle.loadString('assets/Layout.json');
+    return await rootBundle.loadString('assets/Texts.json');
   }
   void _loadJson() {
     loadAsset().then((value){
       final jsonResponse = json.decode(value);
-      list = new LayoutItemList.fromJson(jsonResponse);
-      _getListData(list);
+      list = new TextItem.fromJson(jsonResponse);
+      _getListData(list.texts);
     });
   }
 

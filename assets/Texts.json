@@ -1,0 +1,22 @@
+{
+  "texts":[
+    {
+      "img":"http://pc1j2udq7.bkt.clouddn.com/container.jpg",
+      "name":"Text",
+      "description":"方便设置大小、定位、绘制的控件",
+      "route":"texts"
+    },
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"RichText",
+      "description":"水平方向布局.",
+      "route":"texts"
+    },
+    {
+      "img":"http://doc.flutter-dev.cn/images/catalog-widget-placeholder.png",
+      "name":"DefaultTextStyle",
+      "description":"竖直方向布局.",
+      "route":"texts"
+    }
+  ]
+}
