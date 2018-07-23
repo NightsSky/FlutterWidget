@@ -51,20 +51,30 @@ class TextsPage extends StatelessWidget {
           ),
         ),
 
-        CommonTitle("RichText"),
+        CommonTitle("RichText"),//富文本  属性与text差不多
         new RichText(
           text: new TextSpan(
-            text: 'Hello ',
+            text: 'The RichText widget displays text that uses multiple different styles. ',
             style: TextStyle(color: Colors.brown,fontSize: 18.0),
-            children: <TextSpan>[
-              new TextSpan(text: 'bold', style: TextStyle(color: Colors.red,fontSize: 16.0)),
-              new TextSpan(text: ' world!'),
+            children: <TextSpan>[//可以给每一个textspan设置不同的样式
+              new TextSpan(text: 'The text to display is described using a tree of TextSpan objects,', style: TextStyle(color: Colors.red,fontSize: 16.0)),
+              new TextSpan(text: ' each of which has an associated style that is used for that subtree.!',style: TextStyle(color: Colors.blue,decoration: TextDecoration.lineThrough)),
             ],
           ),
         ),
         CommonTitle("DefaultTextStyle"),
 
-          ],
+        DefaultTextStyle(
+            child: Container(
+              width: 200.0,
+              height: 100.0,
+              color: Colors.blue,
+              child: Text('与Text 一样，但是没有默认的属性,也可以搭配其他控件一起使用'),),
+           style: TextStyle(color: Colors.brown,fontSize: 18.0),
+
+        )
+
+        ],
         )
     );
   }

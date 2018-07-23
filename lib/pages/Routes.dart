@@ -4,10 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_widget/pages/BasicsPage.dart';
 import 'package:flutter_widget/pages/LayoutListPage.dart';
 import 'package:flutter_widget/pages/MaterialListPage.dart';
+import 'package:flutter_widget/pages/ScrollingListPage.dart';
 import 'package:flutter_widget/pages/TextListPage.dart';
 import 'package:flutter_widget/ui/ContainerPage.dart';
 import 'package:flutter_widget/ui/ImagePage.dart';
 import 'package:flutter_widget/ui/Layoutpage.dart';
+import 'package:flutter_widget/ui/ListViewPage.dart';
 import 'package:flutter_widget/ui/RowAndColumnPage.dart';
 import 'package:flutter_widget/ui/ScaffoldPage.dart';
 import 'package:flutter_widget/ui/TextsPage.dart';
@@ -20,6 +22,7 @@ class Routes{
     'Material Components': (BuildContext context) => new MaterialListPage(),
     'Layout': (BuildContext context) => new LayoutListPage(),
     'Text': (BuildContext context) => new TextListPage(),
+    'Scrolling': (BuildContext context) => new ScrollingListPage(),
     //Basics
     'Container': (BuildContext context) => new ContainerPage(),
     'RowColumn': (BuildContext context) => new RowAndColumnPage(),
@@ -33,6 +36,8 @@ class Routes{
     'single_child_layouts': (BuildContext context) => new LayoutPage(),
     //Text
     'texts': (BuildContext context) => new TextsPage(),
+    //scrolling
+    'listView': (BuildContext context) => new ListViewPage(),
 
   };
    Map<String, WidgetBuilder> initRoutes() => routes;

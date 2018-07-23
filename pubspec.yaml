@@ -35,6 +35,7 @@ flutter:
     - assets/Basics.json
     - assets/materialDesign.json
     - assets/Texts.json
+    - assets/Scrollings.json
 
     - assets/Layout.json
     - images/image1.jpg
